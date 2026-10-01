@@ -1,0 +1,9 @@
+KOML Prioritisation Engine local build complete
+Date: 2026-10-01
+Tests: 36 passed (pytest, 0.51 seconds)
+Local implementation commit: 53289f67480e2312bf98fa347cfa1b7d45da9da9
+This file is committed in the subsequent build-record commit to avoid a self-referential hash.
+Measured installed CLI demo: 0.5965275 seconds for 200 synthetic tasks.
+Acceptance: every planted score and total matches the independent oracle; 100 high-priority cases, zero false positives.
+
+Built a deterministic, CPU-only, dependency-free Python CLI with fixtures, run, report, rank and explain commands; pure Decimal scoring; explicit hypothetical-value labels and real/synthetic provenance; JSON, JSONL and CSV ingestion; named validation and parse errors; atomic report/results writes; a labelled 200-task fixture with independent hand-computed expectations; a tiny five-task example; adversarial and end-to-end tests; Markdown/JSON reports; README, lessons and measured build evidence. No savings, real-use utility or two-week verdict is invented. The real-use verdict is pending its required evidence window. Publishing was not performed and is reserved for separate verification.
