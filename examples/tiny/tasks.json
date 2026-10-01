@@ -1,0 +1,51 @@
+{
+  "_comment": "SYNTHETIC hand-written five-record example; hypothetical values",
+  "synthetic": true,
+  "tasks": [
+    {
+      "id": "proposal",
+      "title": "Draft proposal",
+      "expected_value": "50",
+      "urgency": "1",
+      "reversibility": "1",
+      "effort": "2",
+      "synthetic": true
+    },
+    {
+      "id": "backup",
+      "title": "Verify backup",
+      "expected_value": "20",
+      "urgency": "3",
+      "reversibility": "1",
+      "effort": "1",
+      "synthetic": true
+    },
+    {
+      "id": "archive",
+      "title": "Archive notes",
+      "expected_value": "5",
+      "urgency": "0",
+      "reversibility": "1",
+      "effort": "1",
+      "synthetic": true
+    },
+    {
+      "id": "review",
+      "title": "Review deployment",
+      "expected_value": "100",
+      "urgency": "2",
+      "reversibility": "0",
+      "effort": "4",
+      "synthetic": true
+    },
+    {
+      "id": "idea",
+      "title": "Capture idea",
+      "expected_value": "0",
+      "urgency": "0",
+      "reversibility": "1",
+      "effort": "0.5",
+      "synthetic": true
+    }
+  ]
+}

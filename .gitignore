@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+.kpe-results.json
+demo/
+koml-prioritisation-engine-codex.log
+koml-prioritisation-engine-launch.py
+koml-prioritisation-engine-prompt.txt

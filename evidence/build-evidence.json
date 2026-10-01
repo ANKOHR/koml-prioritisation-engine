@@ -1,0 +1,27 @@
+{
+  "synthetic": true,
+  "_comment": "Measured local CLI timings on synthetic input, not savings",
+  "measurement_date": "2026-10-01",
+  "records": 200,
+  "commands": [
+    {
+      "command": "kpe fixtures --out demo",
+      "seconds": 0.21678800000518095,
+      "exit_code": 0
+    },
+    {
+      "command": "kpe run --input demo",
+      "seconds": 0.19445450000057463,
+      "exit_code": 0
+    },
+    {
+      "command": "kpe report --format md",
+      "seconds": 0.1852744999996503,
+      "exit_code": 0
+    }
+  ],
+  "demo_seconds": 0.5965274999980466,
+  "test_count": 36,
+  "test_result": "36 passed",
+  "baseline_savings": "unmeasured; no savings claimed"
+}
